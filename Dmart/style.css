@@ -65,6 +65,7 @@ i{
 }
 .head{
     border-bottom: 1px solid rgb(192, 192, 192);
+    height: 13vh;
 }
 .cart-icon{
     position: relative;
@@ -76,4 +77,27 @@ i{
     background-color: #FFE589;
     border-radius: 50%;
     padding: 5px;
+}
+.section1-abdulla{
+    color: rgb(66, 66, 66) ;
+    border-bottom: 1px solid rgb(192, 192, 192);
+    padding: 0px 0px 7px 0px;
+}
+.d-flex{
+    flex-wrap: wrap;
+}
+.section1-abdulla>span{
+    padding: 0px 30px 0px 10px;
+    font-size: 14px;
+}
+.section1-abdulla-all-cat{
+    padding: 0px 60px 0px 0px;
+    border-right: 1px solid rgb(192, 192, 192);
+}
+.section1-abdulla>span:hover{
+    text-decoration: underline;
+}
+.section1-abdulla>span>i{
+    color: rgb(106, 106, 106);
+    margin-right: 5px;
 }
