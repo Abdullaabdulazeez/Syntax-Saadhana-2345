@@ -2,6 +2,7 @@
 
 body{
     font-family: "Mulish", sans-serif;
+    background-color: #F0F2F6;
 }
 
 .location{
@@ -75,6 +76,7 @@ i{
 }
 .head{
     border-bottom: 1px solid rgb(192, 192, 192);
+    background-color: white;
 }
 nav{
     border-bottom: 1px solid rgb(192, 192, 192);
@@ -119,3 +121,34 @@ nav{
     color: rgb(106, 106, 106);
     margin-right: 5px;
 }
+.img {
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid rgb(203, 202, 202);
+    margin-bottom: 30px;
+  }
+  .section3-abdulla{
+    background-color: white;
+    padding: 0px 30px 30px 30px;
+    border: 1px solid rgb(204, 204, 204);
+    margin: 30px;
+    border-radius: 5px;
+  }
+  .cat {
+    font-weight: 500;
+    font-size: 13px;
+    margin: 0;
+  }
+  #section3-abdulla-head{
+    text-align: left !important;
+    color: black;
+    font-weight: 500;
+    margin: 20px;
+  }
+  .section4-abdulla{
+    background-color: white;
+    padding: 30px;
+    border: 1px solid rgb(204, 204, 204);
+    margin: 30px;
+    border-radius: 5px;
+  }
