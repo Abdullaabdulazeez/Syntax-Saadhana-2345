@@ -85,3 +85,16 @@ i{
     margin: 30px;
     border-radius: 5px;
 }
+.section-16{
+    background-color: white;
+    padding: 30px;
+    border: 1px solid rgb(204, 204, 204);
+    margin: 30px;
+    border-radius: 5px;
+}
+.section-16>img{
+    transition: transform 0.3s ease;
+    }
+    .section-16 img:hover {
+      transform: scale(1.05);
+    }
