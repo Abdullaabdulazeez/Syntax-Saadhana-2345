@@ -81,16 +81,26 @@ i{
 
 
 /* pradeep */
-.container-17 {
-    color: rgb(55, 5, 55);
-    font-size: 16px;
-    
-    border: 1px solid rgb(211, 211, 211);
-    border-radius: 8px;
-
-    margin-top: 20px;
-    margin-bottom: 20px;
+.container-16 {
+    width: 100%;
+    padding: 20px 0px;
 }
 
+.container-17{
+    background-color: white;
+    padding: 10px 18px 10px 20px;
+    border: 1px solid rgb(204, 204, 204);
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.container-17>img{
+    transition: transform 0.3s ease;
+}
+
+.container-17 img:hover {
+    transform: scale(1.05);
+}
 
 /* pradeep */
