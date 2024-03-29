@@ -1,49 +1,60 @@
-.location{
+.location {
     background-color: #F2F6FE;
     margin-right: 30px;
     padding: 13px 30px 0px 30px;
     border-bottom-right-radius: 30px;
     border-top-left-radius: 30px;
 }
-i{
+
+i {
     color: #26A541;
 }
-.time{
+
+.time {
     margin-right: 40px;
 }
-#home-del{
+
+#home-del {
     color: #26A541;
 }
-.time>p{
+
+.time>p {
     margin: 1px;
 }
-.time>p:nth-child(1){
+
+.time>p:nth-child(1) {
     color: rgb(130, 130, 130);
     font-size: 15px;
 }
-.time>p:nth-child(2){
+
+.time>p:nth-child(2) {
     color: black;
     font-weight: 500;
     font-size: 15px;
 }
-.time>p>i{
+
+.time>p>i {
     margin-right: 5px;
 }
-.search{
-   width: 350px;
-   border: 2px solid rgb(194, 193, 193);
-   padding: 8px;
-   background-color: #f5f5f5;
-   border-top-left-radius: 5px;
-   border-bottom-left-radius: 5px;
+
+.search {
+    width: 350px;
+    border: 2px solid rgb(194, 193, 193);
+    padding: 8px;
+    background-color: #f5f5f5;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
-.search:focus{
-   outline: none;
+
+.search:focus {
+    outline: none;
 }
-.search::placeholder{
+
+.search::placeholder {
     color: rgb(182, 182, 182);
 }
-.button{
+
+.button {
     background-color: #26A541;
     border: none;
     color: white;
@@ -51,26 +62,33 @@ i{
     padding: 0px 15px 0px 15px;
     border-radius: 5px;
 }
-.login-part{
+
+.login-part {
     margin-left: 100px;
 }
-.cart{
+
+.cart {
     margin-left: 60px;
 }
-.cart>div>i{
+
+.cart>div>i {
     font-size: 30px;
 }
-.rupee{
+
+.rupee {
     font-size: 22px;
 }
-.head{
+
+.head {
     border-bottom: 1px solid rgb(192, 192, 192);
 }
-.cart-icon{
+
+.cart-icon {
     position: relative;
     font-size: 11px;
 }
-.cart-count{
+
+.cart-count {
     position: absolute;
     top: -10px;
     background-color: #FFE589;
@@ -93,11 +111,51 @@ i{
 
 
 /* vibhor */
+img:hover {
+    cursor: pointer;
+}
+
 .section5-img {
     background-color: white;
     padding: 24px;
     border: 1px solid rgb(204, 204, 204);
     margin: 30px;
     border-radius: 5px;
-  }
-  /* vibhor */
+}
+
+.section6a {
+    background-color: white;
+    padding: 24px;
+    border: 1px solid rgb(204, 204, 204);
+    margin: 30px;
+    border-radius: 5px;
+}
+
+.section7-img {
+    background-color: white;
+    padding: 24px;
+    border: 1px solid rgb(204, 204, 204);
+    margin: 30px;
+    border-radius: 5px;
+}
+
+.section8-img {
+    background-color: white;
+    padding: 24px;
+    border: 1px solid rgb(204, 204, 204);
+    margin: 30px;
+    border-radius: 5px;
+}
+
+.section6a>img {
+
+    transition: transform 0.3s ease;
+}
+
+.section6a img:hover {
+    transform: scale(1.05);
+}
+
+
+
+/* vibhor */
