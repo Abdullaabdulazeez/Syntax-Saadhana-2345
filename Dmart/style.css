@@ -179,7 +179,7 @@ i{
     border: 2px ;
     border-radius: 5px;
     /* width: 2px; */
-    margin-left: 45px;
+    margin-left: 35px;
     height: 50px;
     box-sizing: border-box;
     background-color: #e9f6ec;
@@ -192,7 +192,7 @@ i{
     /* margin-top: -90px; */
  }
  .card-drop button {
-    width: 230px;
+    width: 220px;
     margin: 5px;
     display: flex;
     border: 1px solid;
@@ -255,3 +255,14 @@ i{
     left: 30px;
   }
 
+  .Clearance {
+    background-color: #dff7fa;
+  }
+
+  .Savers {
+    background-color: #fff;
+  }
+
+  .card1 > img:nth-of-type(1):hover {
+    transform: scale(1.1);
+  }
