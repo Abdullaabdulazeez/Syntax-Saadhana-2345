@@ -1,0 +1,14 @@
+.vib1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.vib2 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.vibsection1 {
+  margin-right: 300px;
+  margin-right: 300px;
+}/*# sourceMappingURL=style.css.map */
