@@ -1,0 +1,111 @@
+$center: center;
+$font-family: Inter;
+$margin: auto;
+$weight: 500;
+
+@mixin text-properties-abdulla {
+  font-family: $font-family;
+  text-align: $center;
+  font-weight: 500;
+}
+
+.customer-review {
+  background-image: url(https://s3-alpha-sig.figma.com/img/a2f5/874a/47e24d083480095ba7c5802d90d770d6?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=e4H2WYYIN2cTQ75gby0eEK2KpgEkDosHHPw4-a6R15oBFv8gjIpj0On7pYScQxNW2Cn1maLYHNTDWGRfUo~DZr3zi5qY~YJ2EHdsgOfSjzY-ozsRX-jQkplWd1dMqQ3t7ZJwM8JnxB0BCCBw06mxyxcgPIVpDegJwKU9JxGN9AqNXnsyWkhbO-zV4bqznyr9Uum1zmBRx0adbi4PRmV76WywWq2lB3VXK-cqBc75IErMzC4dhnADA9bAasLhq561XMNuN30QV~X-E66t~0sh9dOHtyHADjwrmL8CKdSmAvHF64MEEXYmMtZhdMNqea3CVTa-OHtN2wJCO2QORKU1QQ__);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  margin-top: 120px;
+
+  h2,
+  p,
+  .Excellent,
+  .name,
+  .traveler,
+  .dot1,
+  .dot {
+    @include text-properties-abdulla;
+  }
+
+  h2 {
+    font-size: 29.53px;
+    font-weight: 700;
+    line-height: 45px;
+  }
+
+  img {
+    position: relative;
+    left: 47%;
+    top: 35px;
+    @media (max-width: 608px) {
+      left: 40%;
+      top: 10px;
+    }
+  }
+
+  .Excellent {
+    font-size: 17.58px;
+    font-weight: $weight;
+    text-align: center;
+    color: #eb662b;
+    position: relative;
+    top: 60px;
+
+    @media (max-width: 608px) {
+      top: 10px;
+    }
+  }
+
+  p {
+    font-size: 19.53px;
+    font-weight: 500;
+    line-height: 37.5px;
+    margin: $margin;
+    color: #05073c;
+    width: 604.59px;
+    height: 101px;
+
+    @media (max-width: 508px) {
+      width: 300px;
+      height: 100px;
+      line-height: 24.5px;
+    }
+  }
+
+  @media (max-width: 608px) {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .name {
+    font-size: 15.75px;
+    color: #05073c;
+  }
+
+  .traveler {
+    font-size: 14.3px;
+    font-weight: 400;
+    position: relative;
+    top: -70px;
+    color: #05073c;
+  }
+  .main-dot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+    top: -90px;
+  }
+  .dot1 {
+    width: 18px;
+    height: 6px;
+    background-color: #05073c;
+    border-radius: 20px;
+  }
+  .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 20px;
+    background-color: #05073c;
+  }
+}
