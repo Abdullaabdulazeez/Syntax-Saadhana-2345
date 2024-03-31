@@ -1,3 +1,775 @@
+#header {
+  .navbar {
+    max-width: 1320px;
+    width: 100%;
+    height: 88px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .nav-search {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      gap: 77px;
+
+      input {
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 14.77px;
+        border: 0;
+        height: 20px;
+        color: #757575;
+      }
+    }
+
+    .buttons {
+      font-family: Inter;
+      font-size: 14.77px;
+      font-weight: 400;
+      line-height: 28.13px;
+      display: flex;
+      // justify-content: space-evenly;
+      align-items: center;
+      gap: 63px;
+
+
+    }
+
+    button {
+      color: #fff;
+      border: 0;
+      background-color: #eb662b;
+      font-family: "Inter", sans-serif;
+      font-size: 14.3px;
+      font-weight: 500;
+      text-align: center;
+      padding: 12px 21px 12px 21px;
+      height: 44px;
+      box-sizing: border-box;
+      border-radius: 200px;
+    }
+  }
+}
+
+
+#pradeep {
+  max-width: 1320px;
+  width: 100%;
+  margin: auto;
+
+  .phuket {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .left {
+      font-family: Inter;
+      font-size: 13.23px;
+      font-weight: 400;
+      line-height: 26.25px;
+      text-align: left;
+
+    }
+    .right {
+      font-family: Inter;
+      font-size: 13.34px;
+      font-weight: 400;
+      line-height: 26.25px;
+      text-align: left;
+      
+    }
+  }
+  
+  .bestseller {
+    font-family: Inter;
+    font-size: 13.67px;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 10px 0px;
+
+    button:nth-of-type(1) {
+      text-align: center;
+      color:  #EB662B;
+
+      border: 0px;
+      padding: 11px 15.8px 11px 16px;
+      border-radius: 25px;
+    }
+
+    button:nth-of-type(2) {
+      padding: 11px 15.8px 11px 16px;
+      border-radius: 200px;
+      border: 0px;
+      text-align: center;
+    }
+  }
+
+  .tourheading {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+
+    h1 {
+      font-family: Inter;
+      font-size: 39.69px;
+      font-weight: 700;
+      line-height: 56px;
+      text-align: left;
+    }
+  }
+
+  .tourdata {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+
+    .touranalysis {
+      margin: 0 10px;
+      width: 50%;
+      
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+      .rating {
+        flex: 1;
+        margin-right: 10px;
+      }
+
+      .location {
+        flex: 1;
+        margin-right: 10px;
+      }
+    }
+
+    .buttons {
+      margin: 0 10px;
+      width: 50%;
+      
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+
+      .share {
+        margin-left: 10px;
+      }
+
+      .wishlist {
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .destinationimages {
+    position: relative;
+    margin: 20px auto;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    
+    .item1 {
+      grid-row-start: 1;
+      grid-row-end: 3;
+      grid-column-start: 1; 
+      grid-column-end: 4; 
+    }
+
+    .item2 {
+      grid-row-start: 1;
+      grid-row-end: 2;
+      grid-column-start: 4; 
+      grid-column-end: 6; 
+    }
+
+    .item3 {
+      grid-row-start: 2;
+      grid-row-end: 3;
+      grid-column-start: 4; 
+      grid-column-end: 5; 
+    }
+
+    .item4 {
+      grid-row-start: 2;
+      grid-row-end: 3;
+      grid-column-start: 5; 
+      grid-column-end: 6; 
+    }
+
+    .seeall {
+      position: absolute;
+      right: 20px;
+      bottom: 20px;
+
+
+      font-family: Inter;
+      font-size: 14.65px;
+      font-weight: 500;
+      line-height: 24px;
+      text-align: center;
+
+      padding: 13px 20.8px 13px 21px;
+      border-radius: 200px;
+      background-color: #05073C;
+      color: #fff;
+    }
+
+    @media screen and (max-width: 768px) {
+      grid-auto-columns: 1fr;
+
+      img {
+        max-width: 100%;
+        justify-self: center;
+      }
+    }
+  }
+}
+$border-color: rgb(197, 197, 197);
+$border-radius: 12px;
+$margin: 2px;
+
+@mixin font-basic {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #05073c;
+}
+
+@mixin flex-stuff {
+  display: flex;
+  align-items: center;
+}
+.section-3-main-container{
+  position: relative;
+}
+.section-container {
+  width: 60%;
+  padding: 20px
+}
+
+.section-3-main {
+  @include flex-stuff;
+  justify-content: space-between;
+}
+
+.box-in-section-3 {
+  border: 1px solid $border-color;
+  width: 50px;
+  height: 50px;
+  border-radius: $border-radius;
+}
+
+.section-3-abdulla {
+  @include flex-stuff;
+
+  p {
+    margin: $margin;
+  }
+}
+
+.section-3-text1 {
+  @include font-basic;
+  font-size: 14.77px;
+  color: #05073c;
+
+  // Responsive font size adjustments
+  @media (max-width: 508px) {
+    font-size: 12px;
+  }
+
+  @media (max-width: 850px) {
+    font-size: 13px;
+  }
+}
+
+.section-3-text2 {
+  @include font-basic;
+  font-size: 13.45px;
+  color: #717171;
+
+  // Responsive font size adjustments
+  @media (max-width: 408px) {
+    font-size: 8px;
+  }
+
+  @media (max-width: 850px) {
+    font-size: 12px;
+  }
+}
+
+.section-3-tour {
+  h2 {
+    @include font-basic;
+    font-size: 29.18px;
+    font-weight: 700;
+    line-height: 45px;
+
+    // Responsive font size adjustments
+    @media (max-width: 508px) {
+      font-size: 25px;
+    }
+
+    @media (max-width: 850px) {
+      font-size: 27px;
+    }
+  }
+
+  p {
+    @include font-basic;
+    line-height: 28.13px;
+
+    // Responsive font size adjustments
+    @media (max-width: 508px) {
+      font-size: 12px;
+    }
+
+    @media (max-width: 850px) {
+      font-size: 13px;
+    }
+  }
+
+  h3 {
+    @include font-basic;
+    font-size: 19.22px;
+    font-weight: 500;
+    line-height: 30px;
+
+    // Responsive font size adjustments
+    @media (max-width: 508px) {
+      font-size: 16px;
+    }
+
+    @media (max-width: 850px) {
+      font-size: 17px;
+    }
+  }
+
+  ul {
+    padding-left: 20px;
+    li {
+      @include font-basic;
+      line-height: 28.13px;
+
+      // Responsive font size adjustments
+      @media (max-width: 508px) {
+        font-size: 12px;
+      }
+
+      @media (max-width: 850px) {
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+.section-3-border {
+  border-bottom: 1px solid #e7e6e6;
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+
+.section-3-list {
+  @include flex-stuff;
+  align-items: baseline;
+  gap: 115px;
+}
+
+.section-3-list1,
+.section-3-list2 {
+  ul {
+    list-style-type: none;
+    padding-left: 0px;
+  }
+
+  li {
+    @include font-basic;
+    line-height: 28.13px;
+  }
+
+  ul li::before {
+    content: "";
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    border-radius: 24px;
+    margin-right: 10px;
+    margin-top: 23px;
+  }
+}
+
+.section-3-list1 ul li::before {
+  background-color: #eff7f1;
+}
+
+.section-3-list2 ul li::before {
+  background-color: #ffe5e5;
+}
+.section-itinerary {
+  h2 {
+    margin: 0;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+  }
+}
+
+.section-itinerary-list {
+  border-left: 1px dashed #eb662b;
+  padding-left: 24px;
+  margin-left: 10px;
+
+  p {
+    @include font-basic;
+    line-height: 30px;
+    position: relative;
+    margin-left: 20px;
+  }
+  .long-para {
+    @include font-basic;
+    font-size: 12.53px;
+    line-height: 28.13px;
+  }
+  p::before {
+    content: "";
+    position: absolute;
+    left: -52px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 12px;
+    border-radius: 18px;
+    border: 2px solid #eb662b;
+  }
+  p.long-para::before {
+    display: none;
+  }
+  p:first-child::before,
+  p:last-child::before {
+    width: 20px;
+    height: 20px;
+    background-color: #eb662b;
+    left: -55px;
+  }
+  @media (max-width: 768px) {
+    margin-left: 5px;
+
+    p {
+      margin-left: 0;
+    }
+
+    p::before {
+      left: -32px;
+    }
+
+    p:first-child::before,
+    p:last-child::before {
+      left: -35px;
+    }
+  }
+}
+.section3-card {
+  background-color: #ffffff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 23%;
+  border-radius: 12px;
+  padding: 32px;
+  border: 1px solid #e7e6e6;
+  position: absolute;
+  right: 4%;
+  top: 70px;
+
+  h5 {
+    @include font-basic;
+    font-size: 17.44px;
+    font-weight: 500;
+    line-height: 27px;
+  }
+
+  .section3-card-head {
+    p {
+      @include font-basic;
+      font-size: 18.75px;
+      font-weight: 500;
+      line-height: 37.5px;
+      text-align: left;
+
+      span {
+        @include font-basic;
+        line-height: 28.13px;
+      }
+    }
+  }
+
+  .section-3-abdulla {
+    border: 2px solid #e7e6e6;
+    width: 89%;
+    padding: 12px;
+    border-radius: 10px;
+
+    .box-in-section-card {
+      width: 50px;
+      height: 50px;
+      border-radius: 12px;
+      background-color: #f5f5f5;
+      margin-right: 10px;
+    }
+  }
+
+  .section-3-adult {
+    @include flex-stuff;
+    gap: 20px;
+
+    p {
+      @include font-basic;
+      line-height: 26.25px;
+
+      span {
+        @include font-basic;
+        font-size: 13.34px;
+        font-weight: 500;
+        line-height: 26.25px;
+      }
+    }
+
+    .adult-circle {
+      width: 15px;
+      height: 15px;
+      padding: 10px 9.8px 10px 10px;
+      border-radius: 30px;
+      border: 1px solid #d6d6d6;
+    }
+  }
+
+  .section3-service-parent {
+    @include flex-stuff;
+    justify-content: space-between;
+
+    .rupee {
+      @include font-basic;
+      line-height: 26.25px;
+      margin-right: 15px;
+    }
+
+    .section3-service-child {
+      @include flex-stuff;
+      gap: 5px;
+
+      .square {
+        width: 18px;
+        height: 18px;
+        border-radius: 4px;
+        border: 1px solid #05073c;
+      }
+
+      p {
+        @include font-basic;
+        line-height: 28.13px;
+      }
+    }
+  }
+
+  .section-last-total {
+    @include flex-stuff;
+    justify-content: space-between;
+
+    p {
+      @include font-basic;
+      font-size: 20.88px;
+      font-weight: 600;
+      line-height: 33.75px;
+      text-align: left;
+    }
+  }
+
+  .section-3-button {
+    button {
+      background-color: #EB662B;
+      width: 100%;
+      height: 5vh;
+      color: white;
+      @include font-basic;
+      font-size: 14.41px;
+      font-weight: 500;
+      line-height: 28px;
+      text-align: center;
+      border: none;
+      border-radius: 12px;
+    }
+  }
+
+  // Responsive adjustments
+  @media (max-width: 1200px) {
+    width: 30%; 
+    padding: 20px; 
+
+    h5 {
+      font-size: 14px; 
+    }
+
+    .section3-card-head p {
+      font-size: 14px; 
+    }
+
+    .section3-service-parent .rupee {
+      font-size: 14px; 
+    }
+
+    .section-last-total p {
+      font-size: 14px; 
+    }
+
+    .section-3-button button {
+      font-size: 12px; 
+    }
+  }
+  @media (max-width: 768px) {
+    top: 1450px;
+    width: 90%; 
+    padding: 20px;
+    h5 {
+      font-size: 14px; 
+    }
+
+    .section3-card-head p {
+      font-size: 14px; 
+    }
+
+    .section3-service-parent .rupee {
+      font-size: 14px; 
+    }
+
+    .section-last-total p {
+      font-size: 14px; 
+    }
+
+    .section-3-button button {
+      font-size: 12px; 
+    }
+  }
+  @media (max-width: 508px) {
+    margin-top: 550px;
+    width: 80%; 
+    padding: 20px; 
+    .section3-card-head p {
+      font-size: 14px; 
+    }
+
+    .section3-service-parent .rupee {
+      font-size: 14px; 
+    }
+
+    .section-last-total p {
+      font-size: 14px; 
+    }
+
+    .section-3-button button {
+      font-size: 12px; 
+    }
+  }
+}
+
+
+.section-3-map {
+  h2 {
+    font-family: Inter;
+    font-size: 29.41px;
+    font-weight: 700;
+    line-height: 45px;
+  }
+
+  .parent-for-tour-map {
+    position: relative;
+
+    img {
+      width: 85%;
+    }
+
+    .child-for-tour-map {
+      position: absolute;
+      top: 0;
+      left: 25%;
+
+      img {
+        width: 80%;
+      }
+    }
+    @media (max-width: 768px){
+      margin-top: 900px;
+      h2 {
+        margin-top: 500px;
+      }
+    }
+  }
+
+  .section3-card {
+    background-color: #ffffff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 36%;
+    border-radius: 12px;
+    border: 1px solid #e7e6e6;
+  }
+
+  @media (max-width: 768px) {
+    .parent-for-tour-map {
+      img {
+        width: 100%;
+      }
+
+      .child-for-tour-map {
+        left: 50px;
+      }
+    }
+  }
+}
+@media (max-width: 500px) {
+  .section-3-list {
+    @include flex-stuff;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 00px;
+  }
+
+  .section-3-list1,
+  .section-3-list2 {
+    margin-bottom: 10px;
+    li {
+      font-size: 16px;
+    }
+  }
+
+  .section-3-list1,
+  .section-3-list2 ul li::before {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 900px) {
+  .section-3-list {
+    gap: 0px;
+  }
+}
+
+@media (max-width: 508px) {
+  .section-container {
+    width: 90%;
+  }
+
+  .section-3-main {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 850px) {
+  .section-container {
+    width: 80%;
+  }
+}
 // ================= Rahul ======================
 
 // card section 
@@ -228,4 +1000,3 @@ span {
 
 // footer
 
- 
