@@ -126,7 +126,6 @@ nav{
     border-radius: 50%;
     padding: 5px;
 }
-
 .section1-abdulla{
     color: rgb(66, 66, 66) ;
     border-bottom: 1px solid rgb(192, 192, 192);
@@ -193,13 +192,10 @@ nav{
     margin: 30px;
     border-radius: 5px;
   }
-
-
-/* vibhor */
+  /* vibhor */
 img:hover {
     cursor: pointer;
 }
-
 .section5-img {
     background-color: white;
     padding: 24px;
@@ -240,14 +236,9 @@ img:hover {
 .section6a img:hover {
     transform: scale(1.05);
 }
-.cart-count{
-    position: absolute;
-    top: -10px;
-    background-color: #FFE589;
-    border-radius: 50%;
-    padding: 5px;
-}
+/* vibhor */
 
+/* saifudheen */
 .section-13,.section-15{
     background-color: white;
     padding: 30px;
@@ -268,7 +259,7 @@ img:hover {
     .section-16 img:hover {
       transform: scale(1.05);
     }
-/* vibhor */
+/* saifudheen */
 
 /* pradeep */
 .container-16 {
@@ -286,7 +277,7 @@ img:hover {
 }
 
 .container-17>img{
-    transition: transform 0.3s ease;
+    transition: transform 0.5s ease;
 }
 
 .container-17 img:hover {
@@ -294,3 +285,186 @@ img:hover {
 }
 
 /* pradeep */
+
+/* ====================Rahul======================== */
+
+.card-rahul {
+    display: flex;
+    justify-content: center;
+    background-color:#f9f5ac;
+    gap: 15px;
+ }
+.card-btn {
+    background-color: #25a541;
+    width: auto;
+    margin: 0px 5px 0px 5px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.card1 {
+    height: auto;
+    width: 28%;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+ .card1 img {
+    width: 55%;
+    margin: auto;
+    margin-top: 10px ;
+
+    margin-bottom: 2px;    
+ }
+
+ .card-text {
+    display: flex;
+    gap: 30px;
+    margin-left: 10px;
+    /* border: 2px solid; */
+    /* height: 85px; */
+ }
+
+ .card-title{
+    font-size: 13px;
+ }
+ .card-child {
+    display: flex;
+    flex-direction: column;
+    /* gap: 1px; */
+    /* border: 2px solid; */
+    /* height: 75px; */
+ }
+ .card-tax1 {
+     background-color: red;
+     /* position: absolute; */
+    /* top: 300px; */
+    /* margin-top: -90px; */
+ }
+ .card-drop button {
+    width: 95%;
+    margin: 5px;
+    display: flex;
+    border: 1px solid rgb(170, 170, 170);
+ }
+ .drop-text{
+    font-size: 13px;
+    font-weight: 300;
+ }
+ .drop-text>span{
+    color: rgb(172, 172, 172);
+    margin-left: 4px;
+    font-weight: 200;
+ }
+ .rahul-mrp{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+ }
+ .rahul-mrp-2{
+    display: flex;
+    gap: 9px;
+    margin-left: 13%;
+ }
+ .rahul-mrp>div p{
+    margin: 2px;
+    font-size: 13px;
+ }
+ .include{
+    color: rgb(151, 151, 151);
+    margin: 0;
+    font-size: 12px;
+    position: relative;
+    font-style: italic;
+    font-weight: 300;
+    top: -20px;
+ }
+ .rahul-mrp-2>div:nth-child(1){
+    color: rgb(155, 155, 155);
+ }
+ .rahul-mrp>div:nth-child(2){
+    font-weight: bold;
+    background-color: #E9F6EB;
+    color: #25a541;
+    border-radius: 3px;
+    padding: 7px;
+    margin-right: 7px;
+ }
+ .bold{
+    font-weight: bold;
+ }
+
+ .card-drop1 {
+    margin-top: -20px;
+ }
+ .btn:hover{
+    border: 1px solid rgb(170, 170, 170);
+    box-shadow: rgba(105, 135, 255, 0.35) 0px 5px 15px;
+ }
+/* 
+ .card-rahul > p{
+    text-align: start;
+    width: ;
+ } */
+ .card-rahul > .card1 {
+    margin-top: 75px;
+    margin-bottom: 25px;
+    /* padding: 18px 5px 18px 5px; */
+ }
+
+ .card-rahul {
+    /* background-color: white; */
+    padding: 0px 30px 30px 30px;
+    border: 1px solid rgb(204, 204, 204);
+    margin: 30px;
+    border-radius: 5px;
+    position: relative;
+  }
+  .card-rahul > button{
+    position: absolute;
+    right: 17px;
+    top: 43%;
+    /* background-color: white; */
+    border: 1px solid rgb(216, 216, 216);
+    padding: 20px 10px 20px 10px;
+  }
+  .dropdown-menu{
+    width: 95%;
+    font-size: 13px;
+    font-weight: 300;
+  }
+  .dropdown-item{
+    color: rgb(131, 131, 131);
+    background-color: #deffe5;
+  }
+  .green-mark > img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 11px;
+    right: 10px;
+  }
+
+  .card-heading  {
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    top: 25px;
+    left: 30px;
+  }
+
+  .Clearance {
+    background-color: #dff7fa;
+  }
+
+  .Savers {
+    background-color: #fff;
+  }
+
+  .card1 > img:nth-of-type(1):hover {
+    transform: scale(1.1);
+  }
+
+  /* ==================Rahul=================== */
