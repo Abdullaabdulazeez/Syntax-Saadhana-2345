@@ -1,0 +1,231 @@
+// ================= Rahul ======================
+
+// card section 
+
+#top-trend{
+    .container {
+        width: auto;
+        max-width: 1320px;
+        margin: auto;
+    
+        .outer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    
+            > h2 {
+                font-family: Inter;
+                font-size: 29px;
+                font-weight: 700;
+                line-height: 45px;
+                letter-spacing: 0em;
+                color: #05073c;
+                padding: 5px 0px 0px 15px;
+            }
+    
+            > a {
+                font-family: Inter;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 28px;
+                text-decoration: none;
+                padding: 21.88px 40.8px 0px 0px;
+            }
+        }
+    
+        .inner {
+            
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            margin: 0px 15px 0px 15px;
+
+            @media screen and (max-width:768px) {
+    
+                grid-template-columns: repeat(2 , 1fr);
+                grid-auto-rows: auto;
+                
+            }
+            @media screen and (max-width:508px) {
+    
+                grid-template-columns: repeat(1 , 1fr);
+                grid-auto-rows: auto;
+                
+            }
+    
+            > div {
+                border: 1px solid #e7e6e6;
+                border-radius: 12px;
+                background-color: white;
+    
+                > img {
+                    padding: 11px;
+                    border-radius: 12px;
+                    display: block;
+                }
+    
+                > p:nth-of-type(1) {
+                    font-family: Inter;
+                    font-size: 12px;
+                    font-weight: 400px;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    padding: 10px 0px 0px 42px;
+                    margin: 0px;
+                    color: #717171;
+                }
+    
+                > h3 {
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-weight: 500px;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    color: #05073c;
+                    margin: 0px;
+                    padding-left: 21px;
+                    max-width: 249.4px;
+                }
+    
+                > p:nth-of-type(2) {
+                    font-family: Inter;
+                    font-size: 12px;
+                    font-weight: 400px;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    padding: 10px 0px 0px 101px;
+                    margin: 0px;
+                    color: #05073c;
+                    max-width: 54.59px;
+                }
+    
+                > div {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    max-width: 258px;
+                    margin: 14.3px 21px 11px 21px;
+                    border-top: 1px solid gray;
+    
+                    > span {
+                        font-family: Inter;
+                        font-size: 13px;
+                        font-weight: 400px;
+                        line-height: 24px;
+                        letter-spacing: 0em;
+                        color: #05073c;
+                    }
+    
+                    > div > span:nth-of-type(1) {
+                        font-family: Inter;
+                        font-size: 13px;
+                        font-weight: 400px;
+                        line-height: 24px;
+                        letter-spacing: 0em;
+                        color: #05073c;
+                    }
+    
+                    > div > span:nth-of-type(2) {
+                        font-family: Inter;
+                        font-size: 15px;
+                        font-weight: 500px;
+                        line-height: 30px;
+                        letter-spacing: 0em;
+                        color: #05073c;
+                    }
+                }
+            }
+        }
+    }
+  }
+
+
+
+//   footer section
+
+.footer {
+ 
+    width: 100%;
+    height: 655.13px;
+    top: 7722.44px;
+    left: 60px;
+    border-radius: 12px;
+    background-color: #fef7f4;
+    color: #242553;
+    margin: auto;
+
+
+>div {
+  margin: auto;
+    max-width: 1320px;
+    width: 100%;
+    height: 655.13px;
+    top: 7722.44px;
+    left: 300px;
+}
+
+#lay1 {
+    max-width: 1290px;
+    width: 100%;
+    height: 26px;
+    padding: 94.31px 80px 64.82px 80px;
+    border-bottom: 1px solid #EB662B26;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    box-sizing: border-box;
+}
+h2{
+  font-size: 20px;
+  font-weight: 500;
+}
+p{
+  font-size: 14.41px;
+  font-weight: 400;
+}
+
+span {
+    font-weight: bold;
+}
+
+
+#flex {
+  width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+#form>input{
+  border-radius: 12px;
+  padding-left: 21px;
+    border: none;
+    height: 60px;
+    width: 220px;
+}
+.footer-submit{
+  border-radius: 12px;
+  padding: 23px 30px;
+  background-color: white;
+  transform: translate(-20px);
+  border: 0;
+}
+.end>img{
+  width: 38px;
+  height: 24px;
+  justify-content: end;
+}
+}
+.copyrights{
+  padding: 24px 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1320px;
+  margin: auto;
+  font-size: 14.53px;
+}
+
+// footer
+
+ 
