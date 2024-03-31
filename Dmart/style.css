@@ -126,6 +126,7 @@ nav{
     border-radius: 50%;
     padding: 5px;
 }
+
 .section1-abdulla{
     color: rgb(66, 66, 66) ;
     border-bottom: 1px solid rgb(192, 192, 192);
@@ -269,3 +270,27 @@ img:hover {
     }
 /* vibhor */
 
+/* pradeep */
+.container-16 {
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.container-17{
+    background-color: white;
+    padding: 10px 18px 10px 20px;
+    border: 1px solid rgb(204, 204, 204);
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.container-17>img{
+    transition: transform 0.3s ease;
+}
+
+.container-17 img:hover {
+    transform: scale(1.05);
+}
+
+/* pradeep */
