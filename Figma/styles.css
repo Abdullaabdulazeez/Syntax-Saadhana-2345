@@ -1,13 +1,13 @@
 #header .navbar {
   max-width: 1320px;
   width: 100%;
-  height: 88px;
-  margin: auto;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 #header .navbar .nav-search {
+  padding: 20px 0px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -21,6 +21,19 @@
   height: 20px;
   color: #757575;
 }
+@media screen and (max-width: 768px) {
+  #header .navbar .nav-search {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  #header .navbar .nav-search input {
+    width: 100%;
+    border-radius: 150px;
+    height: 35px;
+    width: 210px;
+  }
+}
 #header .navbar .buttons {
   font-family: Inter;
   font-size: 14.77px;
@@ -29,6 +42,19 @@
   display: flex;
   align-items: center;
   gap: 63px;
+}
+@media screen and (max-width: 990px) {
+  #header .navbar .buttons .hide {
+    display: none;
+  }
+}
+@media screen and (max-width: 560px) {
+  #header .navbar .buttons {
+    margin: 10px 0px;
+  }
+  #header .navbar .buttons .hide {
+    display: none;
+  }
 }
 #header .navbar button {
   color: #fff;
@@ -42,6 +68,12 @@
   height: 44px;
   box-sizing: border-box;
   border-radius: 200px;
+}
+@media screen and (max-width: 768px) {
+  #header .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 #pradeep {
@@ -68,6 +100,12 @@
   line-height: 26.25px;
   text-align: left;
 }
+@media screen and (max-width: 768px) {
+  #pradeep .phuket {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 #pradeep .bestseller {
   font-family: Inter;
   font-size: 13.67px;
@@ -88,6 +126,13 @@
   border: 0px;
   text-align: center;
 }
+@media screen and (max-width: 768px) {
+  #pradeep .bestseller {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
 #pradeep .tourheading {
   display: flex;
   flex-wrap: wrap;
@@ -100,39 +145,34 @@
   line-height: 56px;
   text-align: left;
 }
+@media screen and (max-width: 768px) {
+  #pradeep .tourheading {
+    width: 100%;
+  }
+  #pradeep .tourheading h1 {
+    text-align: center;
+  }
+}
 #pradeep .tourdata {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  padding: 0 20px;
+  border: 0;
 }
 #pradeep .tourdata .touranalysis {
-  margin: 0 10px;
-  width: 50%;
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-#pradeep .tourdata .touranalysis .rating {
-  flex: 1;
-  margin-right: 10px;
-}
-#pradeep .tourdata .touranalysis .location {
-  flex: 1;
-  margin-right: 10px;
+  gap: 20px;
+  margin-left: 10%;
 }
 #pradeep .tourdata .buttons {
-  margin: 0 10px;
-  width: 50%;
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  gap: 20px;
+  margin-right: 4%;
 }
-#pradeep .tourdata .buttons .share {
-  margin-left: 10px;
-}
-#pradeep .tourdata .buttons .wishlist {
-  margin-left: 10px;
+@media screen and (max-width: 768px) {
+  #pradeep .tourdata {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 #pradeep .destinationimages {
   position: relative;
@@ -141,6 +181,9 @@
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 10px;
+}
+#pradeep .destinationimages .item1, #pradeep .destinationimages .item2, #pradeep .destinationimages .item3, #pradeep .destinationimages .item4 {
+  width: 100%;
 }
 #pradeep .destinationimages .item1 {
   grid-row-start: 1;
@@ -181,11 +224,11 @@
   color: #fff;
 }
 @media screen and (max-width: 768px) {
-  #pradeep .destinationimages {
-    grid-auto-columns: 1fr;
-  }
-  #pradeep .destinationimages img {
-    max-width: 100%;
-    justify-self: center;
+  #pradeep .destinationimages .seeall {
+    text-align: center;
+    padding: 7px 10px 6px 10px;
+    border-radius: 200px;
+    background-color: #05073C;
+    color: #fff;
   }
 }/*# sourceMappingURL=styles.css.map */
