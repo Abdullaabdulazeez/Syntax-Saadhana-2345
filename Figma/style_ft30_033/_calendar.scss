@@ -1,0 +1,104 @@
+@mixin outer($w,$h,$b,$s,$c,$ml){
+    width: $w;
+    height: $h;
+    // border: $b $s $c;
+    margin-left: $ml;
+}
+@mixin calendarBox($w,$h,$b,$s,$c,$bs,$br,$ml,$mb,$dp,$spaceb,$bsize,$pd){
+    width: $w;
+    height: $h;
+    border: $b $s $c;
+    box-shadow: $bs;
+    border-radius: $br;
+    margin-left: $ml;
+    margin-bottom: $mb;
+    display: $dp;
+    justify-content: $spaceb;
+    box-sizing: $bsize;
+    padding: $pd;
+}
+@mixin bTop_bBottom($w,$h,$b,$s,$c,$ml,$mt){
+    width: $w;
+    height: $h;
+    border-bottom: $b $s $c;
+    margin-left: $ml;
+    margin-top: $mt;
+}
+#calendar{
+    @include outer(880px,auto,1px,solid,red,300px);
+    >h1{
+        font-family: Inter;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 45px;
+        text-align: left;
+        color:#05073C;
+        margin-left: 15px;
+        margin-top: 45px;
+        margin-bottom: 15px;
+    }
+}
+#calendar_box{
+    @include calendarBox(504px,305.25px,0px,solid,#8798AD,0px 0px 5px 0px #8798AD,5px,15px,45px,flex,space-between,border-box,15px);
+}
+#calendar{
+    >#b_top{
+        @include bTop_bBottom(850px,1px,1px,solid,#E7E6E6,15px,10px);
+    }
+    >#b_bottom{
+        @include bTop_bBottom(850px,1px,1px,solid,#E7E6E6,15px,0px);
+    }
+}
+.calendar-month{
+    font-family: Inter;
+    font-size: 13.34px;
+    font-weight: 400;
+    line-height: 26.25px;
+    color:black;
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    >span{
+        color: #EB662B;
+        font-size: 13.34px;
+        font-weight: 700;
+        margin-top: 3px;
+    }
+    >#cm-left-arrow{
+        position: relative;
+        left: -62px;
+    }
+    >#cm-right-arrow{
+        position: relative;
+        left: 70px;
+    }
+}
+.calendar-thead{
+    font-family: Inter;
+    font-size: 12.49px;
+    font-weight: 500;
+    line-height: 24.38px;
+    text-align: center;
+    color: #EB662B;
+}
+tbody,tfoot>tr>td{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+td{
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 7px;
+    padding-bottom: 6px;
+    text-align: center;
+}
+#calendar-day-9{
+    width: 20px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #FFC107;
+    color: white;
+}
