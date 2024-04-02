@@ -1,3 +1,8 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 #calendar {
   width: 880px;
   height: auto;
@@ -301,9 +306,4 @@ td {
 #c-review > #c-review-8 {
   background-color: #fef9f7;
   border-bottom-right-radius: 12px;
-}
-
-* {
-  margin: 0px;
-  padding: 0px;
-}/*# sourceMappingURL=styles_afc.css.map */
+}/*# sourceMappingURL=styles.css.map */
