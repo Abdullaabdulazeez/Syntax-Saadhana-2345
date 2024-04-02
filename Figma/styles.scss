@@ -1125,6 +1125,232 @@ td{
 }
 
 // ===================SAIFUDDIN==================//
+.vibhor-container-1 {
+    .vibhors1-heading {
+
+        display: flex;
+        justify-content: space-between;
+        gap: 658.53px;
+
+    }
+
+    .vibhors1-heading>div {
+        font-weight: bold;
+    }
+
+    .vibhors1-heading>p {
+        color: #717171;
+
+    }
+
+    .vibhors1-heading>div {
+        display: flex;
+        gap: 20px;
+
+    }
+
+    .vibhors1-heading>img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .vibhor-btn {
+        font-family: Inter;
+        font-size: 14.65px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: center;
+
+        // top: 21px;
+        // left: 36px;
+
+
+        padding: 21px 61.8px 21px 36px;
+        color: #EB662B;
+        border-color: none;
+        background-color: white;
+        border: 1px solid #EB662B;
+
+        width: 222px;
+        height: auto;
+        top: 5229.25px;
+        left: 15px;
+        // padding: 21px 35.8px 21px 36px;
+        // gap: 0px;
+        border-radius: 12px;
+        // border: 1px ;
+
+    }
+
+    .vibhor-text-1 {
+        margin-left: 95px;
+        font-family: Inter;
+        font-size: 17px;
+        font-weight: bold;
+        // line-height: 30px;
+        text-align: left;
+        width: 203.81px;
+
+
+        height: 30px;
+        top: 4146.12px;
+        left: 95px;
+        // gap: 0px;
+        // opacity: 0px;
+
+        @media screen and (max-width:768px) {
+        
+            width: auto;
+            height: auto;
+         }
+
+
+    }
+
+    .vibhor-text-2 {
+        width: 831.47px;
+        height: auto;
+        // top: 4190.12px;
+        // left: 15px;
+
+
+
+        font-family: Inter;
+        font-size: 16.65px;
+        font-weight: 400;
+        line-height: 28.13px;
+        text-align: left;
+        
+        @media screen and (max-width:768px) {
+        
+           width: auto;
+           height: auto;
+        }
+
+    }
+
+
+
+
+    .vibhors1 {
+        display: flex;
+        gap: 20px;
+
+
+    }
+
+    .vibhor-text-3 {
+        display: flex;
+        gap: 55.8px;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+
+
+}
+
+.comment-form .grid-text {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.comment-form .form-grid {
+    display: grid;
+    gap: 30px;
+    grid-template-areas:
+        'aa bb '
+        'cc cc '
+        'dd dd' ;
+    
+        gap: 10px;
+
+        @media screen and (max-width:500px) {
+        
+           grid-template-areas: 'aa'
+           'bb'
+           'cc'
+           'dd';
+         }
+}
+
+.comment-form .form-grid>div:nth-of-type(1) p {
+    font-family: Inter;
+    font-size: 15.38px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    width: auto;
+    height: auto;
+    border: 1px solid #E7E6E6;
+    border-radius: 12px;
+    padding: 20px 351px 19px 15px;
+    grid-area: a;
+}
+
+.comment-form .form-grid>div:nth-of-type(2) p {
+    font-family: Inter;
+    font-size: 15.75px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    width: auto;
+    height: auto;
+    border: 1px solid #E7E6E6;
+    border-radius: 12px;
+    padding: 20px 355px 19px 15px;
+    grid-area: b;
+}
+
+.comment-form .form-grid>div:nth-of-type(3) p {
+    border: 1px solid #E7E6E6;
+    grid-area: c;
+    padding: 20px 803px 19px 15px;
+    width: auto;
+    height: auto;
+    border-radius: 12px;
+}
+
+.comment-form .form-grid>div:nth-of-type(4) p {
+    border: 1px solid #E7E6E6;
+    grid-area: d;
+    padding: 20px 760px 101px 15px;
+    width: auto;
+    height: auto;
+    border-radius: 12px;
+}
+
+.comment-form .form-grid>div:nth-of-type(1) {
+    grid-area: aa;
+    
+}
+.comment-form .form-grid>div:nth-of-type(2) {
+    grid-area: bb;
+    
+    
+}
+.comment-form .form-grid>div:nth-of-type(3){
+    grid-area: cc;
+   
+}
+.comment-form .form-grid>div:nth-of-type(4) {
+    grid-area: dd;
+    height: 137px;
+    
+
+   
+}
+.vibhorbutton {
+   
+    width: 203px;
+    height: 62px;
+    background-color: #EB662B;
+    color: white;
+    border-radius: 12px;
+    border: #EB662B;
+    margin-top: 40px;
+}
 #top-trend{
     .container {
         width: auto;
