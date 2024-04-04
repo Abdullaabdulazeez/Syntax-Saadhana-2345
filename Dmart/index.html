@@ -89,17 +89,19 @@
           </div>
         </div>
       </nav>
-      <div class="d-flex flex-wrap justify-content-start section1-abdulla">
+      <div class="d-flex justify-content-start section1-abdulla">
         <span class="section1-abdulla-all-cat"
-          ><i class="fa-solid fa-list"></i>All Categories</span
-        >
+          >
+          <i class="fa-solid fa-list"></i>All Categories</span>
         <span class="section1-abdulla-all-border"></span>
-        <span>Value Packs</span>
-        <span>Ready To Cook</span>
-        <span>Home Appliances Cookware</span>
-        <span>Serveware</span>
-        <span>Cleaners</span>
-        <span>Detergent & Fabric Care</span>
+        <div class="d-none d-lg-block ">
+          <span>Value Packs</span>
+          <span>Ready To Cook</span>
+          <span>Home Appliances Cookware</span>
+          <span>Serveware</span>
+          <span>Cleaners</span>
+          <span class="d-none d-xl-inline">Detergent & Fabric Care</span>
+        </div>
       </div>
     </header>
     <section>
@@ -139,7 +141,7 @@
       <div class="container-fluid text-center">
         <h5 id="section3-abdulla-head">Popular Categories</h5>
         <div class="row">
-          <div class="col">
+          <div class="col d-none d-xl-block">
             <img
               src="https://cdn.dmart.in/images/rwd/banners/cards/12sept23-popularcat-tea1.png"
               alt=""
@@ -147,7 +149,7 @@
             />
             <p class="cat">Tea</p>
           </div>
-          <div class="col">
+          <div class="col d-none d-lg-block">
             <img
               src="https://cdn.dmart.in/images/rwd/banners/cards/12jan24-popularcat-coffee.png"
               alt=""
@@ -155,7 +157,7 @@
             />
             <p class="cat">Coffe</p>
           </div>
-          <div class="col">
+          <div class="col d-none d-lg-block">
             <img
               src="https://cdn.dmart.in/images/rwd/banners/cards/12jan24-popularcat-healthdrinks.png"
               alt=""
@@ -163,7 +165,7 @@
             />
             <p class="cat">Health Drinks</p>
           </div>
-          <div class="col">
+          <div class="col d-none d-md-block">
             <img
               src="https://cdn.dmart.in/images/rwd/banners/cards/1may23-popularcat-dairy.png"
               alt=""
@@ -179,7 +181,7 @@
             />
             <p class="cat">Bath Soaps</p>
           </div>
-          <div class="col">
+          <div class="col d-none d-md-block">
             <img
               src="https://cdn.dmart.in/images/rwd/banners/cards/16jan23-popularcat-poojaneeds.png"
               alt=""
@@ -195,7 +197,7 @@
             />
             <p class="cat">Toothpastes</p>
           </div>
-          <div class="col">
+          <div class="col d-none d-sm-block">
             <img
               src="https://cdn.dmart.in/images/rwd/banners/cards/12jan24-popularcat-shampoos.png"
               alt=""
@@ -240,6 +242,26 @@
         <img src="https://cdn.dmart.in/images/rwd/banners/curated/1mar24-curated-badapack-bang1.jpg" class="img-fluid"
           alt="...">
           </div>
+          <!-- rahul res-->
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <!-- cart1 -->
+                <div class="card card1 d-none d-sm-block">
+                  <!-- Content for cart1 -->
+                </div>
+              </div>
+              <div class="col">
+                <!-- cart2 -->
+                <div class="card card1 d-none d-md-block">
+                  <!-- Content for cart2 -->
+                </div>
+              </div>
+              <!-- Add more col divs for additional carts -->
+            </div>
+          </div>          
+          <!-- rahul res-->
+
           <!-- rahul -->
 
           <div class="card-rahul">
@@ -247,7 +269,7 @@
   
         <!-- all card  -->
   
-        <div class="card card1">
+        <div class="card card1 d-none d-md-block w-100">
           <img
             src="	https://cdn.dmart.in/images/products/KONIONS2kg22XX220318_1_P.jpg"
             class="card-img-top"
@@ -289,7 +311,9 @@
               <button class="btn drop-text" type="button" data-bs-toggle="dropdown"  aria-expanded="false">
                  3 kg <span>(28.33/1 kg)</span></button>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">3kg (28.33/1 kg)</a></li>
+                <li><a class="dropdown-item" href="#">1kg (28.33/1 kg)</a></li>
+                <li><a class="dropdown-item" href="#">2kg (28.33/2 kg)</a></li>
+                <li><a class="dropdown-item" href="#">3kg (28.33/3 kg)</a></li>
               </ul>
             </div>
             <div class="card-btn">
@@ -299,7 +323,7 @@
         </div>
   
             <!-- card2 -->
-            <div class="card card1">
+            <div class="card card1 d-none d-lg-block w-100">
                 <img
                   src="https://cdn.dmart.in/images/products/KOTHERVEGETABLE200GM16XX160218_1_P.jpg"
                   class="card-img-top"
@@ -352,7 +376,7 @@
 
               <!-- card3 -->
 
-              <div class="card card1">
+              <div class="card card1 d-none d-xl-block w-100">
                 <img
                   src="	https://cdn.dmart.in/images/products/KCOCONUT1pcs3134XX160818_1_P.jpg"
                   class="card-img-top"
@@ -395,6 +419,8 @@
                         1 U</button>
                     <ul class="dropdown-menu">
                       <li><a class="dropdown-item" href="#">1 U</a></li>
+                      <li><a class="dropdown-item" href="#">2 U</a></li>
+                      <li><a class="dropdown-item" href="#">3 U</a></li>
                     </ul>
                   </div>
                   <div class="card-btn">
@@ -404,7 +430,7 @@
               </div>
 
               <!-- card4 -->
-              <div class="card card1">
+              <div class="card card1 w-100">
                 <img
                   src="	https://cdn.dmart.in/images/products/JUN250000001xx28JUN22_4_P.jpg"
                   class="card-img-top"
@@ -443,6 +469,8 @@
                        1 kg <span>(36.33/1 kg)</span></button>
                     <ul class="dropdown-menu">
                       <li><a class="dropdown-item" href="#">1kg (28.33/1 kg)</a></li>
+                      <li><a class="dropdown-item" href="#">2kg (28.33/1 kg)</a></li>
+                      <li><a class="dropdown-item" href="#">3kg (28.33/1 kg)</a></li>
                     </ul>
                   </div>
                   <div class="card-btn">
@@ -536,7 +564,7 @@
       
             <!-- all card  Clearance Offer-->
       
-            <div class="card card1">
+            <div class="card card1 d-none d-md-block w-100">
                 <img
                   src="		https://cdn.dmart.in/images/products/MAY180000529xx9MAY22_5_P.jpg"
                   class="card-img-top"
@@ -619,7 +647,7 @@
                 </div>
               </div> -->
 
-              <div class="card card1">
+              <div class="card card1 d-none d-lg-block w-100">
                 <img
                   src="https://cdn.dmart.in/images/products/LCUSHIONS6UMani56xx150920_5_P.jpg"
                   class="card-img-top"
@@ -663,7 +691,7 @@
             
 
 
-            <div class="card card1">
+            <div class="card card1 d-none d-xl-block w-100">
                 <img
                   src="	https://cdn.dmart.in/images/products/LHEADPHONES0Zebr48xx080721_5_P.jpg"
                   class="card-img-top"
@@ -708,7 +736,7 @@
                 </div>
               </div>
 
-              <div class="card card1">
+              <div class="card card1 w-100">
                 <img
                   src="	https://cdn.dmart.in/images/products/JUL200000476xx3JUL22_5_P.jpg"
                   class="card-img-top"
@@ -769,7 +797,7 @@
         <!-- all card  -->
         <!-- card1 -->
 
-        <div class="card card1">
+        <div class="card card1 d-none d-md-block w-100">
             <img
               src="https://cdn.dmart.in/images/products/FEB150003976xx29FEB24_5_P.jpg"
               class="card-img-top"
@@ -857,7 +885,7 @@
           <!-- card3 -->
 
 
-          <div class="card card1">
+          <div class="card card1 d-none d-lg-block w-100">
             <img
               src="	https://cdn.dmart.in/images/products/FEB150004315xx29FEB24_5_P.jpg"
               class="card-img-top"
@@ -905,7 +933,7 @@
           <!-- card4 -->
 
 
-          <div class="card card1">
+          <div class="card card1 d-none d-xl-block w-100">
             <img
               src="	https://cdn.dmart.in/images/products/MAR120006955xx11MAR24_5_P.jpg"
               class="card-img-top"
@@ -952,7 +980,7 @@
 
           <!-- card5 -->
 
-          <div class="card card1">
+          <div class="card card1 w-100">
             <img
               src="	https://cdn.dmart.in/images/products/FEB130000348xx29FEB24_5_P.jpg"
               class="card-img-top"
