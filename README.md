@@ -6,7 +6,8 @@ DMart is a one-stop supermarket chain that aims to offer customers a wide range 
 
 ### Deployed Link
 
-[Live Demo](https://dmart-masai.netlify.app/)
+[Live Demo: Dmart](https://syntax-saadhana-2345.netlify.app/)
+[Live Demo: Viatours](https://figma-syntax-saadhana-2345.netlify.app/)
 
 ### Screenshots
 
