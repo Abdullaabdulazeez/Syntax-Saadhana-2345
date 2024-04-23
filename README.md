@@ -11,6 +11,8 @@ DMart is a one-stop supermarket chain that aims to offer customers a wide range 
 [Live Demo: Viatours](https://figma-syntax-saadhana-2345.netlify.app/)
 
 ### Screenshots
+![image](https://github.com/Abdullaabdulazeez/Syntax-Saadhana-2345/assets/120002835/31a257a3-c316-4084-8a1c-b823e8e0b197)
+
 
 
 
@@ -58,7 +60,7 @@ To run this project locally:
 
 - [Abdulla Abdul Azeez](https://github.com/Abdullaabdulazeez)
 - [Rahul Maurya](https://github.com/rmauryaa) 
--[Saifuddin Dhali](https://github.com/saif520)
+- [Saifuddin Dhali](https://github.com/saif520)
 - [Pradeep Yadav](https://github.com/simply-code-it)
 - [Vibhor](https://github.com/vibhor121)
 
